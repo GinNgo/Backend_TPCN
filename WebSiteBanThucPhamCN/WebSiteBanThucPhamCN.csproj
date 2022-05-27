@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetOpenAuth.InfoCard.UI" Version="4.3.4.13329" />
+    <PackageReference Include="Humanizer.Core" Version="2.14.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.23">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="MimeKit" Version="3.2.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Upload\images\AdminLTELogo.png" />
+    <None Include="wwwroot\Upload\images\atm-payment.jpg" />
+    <None Include="wwwroot\Upload\images\blackmores-bio-znc-jpg-1498532818-27062017100658.jpg" />
+    <None Include="wwwroot\Upload\images\canxi-ostelin-calcium-vitamin-d3-cua-uc-jpg-1622197400-28052021172320.jpg" />
+    <None Include="wwwroot\Upload\images\cod-payment.jpg" />
+    <None Include="wwwroot\Upload\images\dang-ky-bo-cong-thuong.png" />
+    <None Include="wwwroot\Upload\images\icon-books.png" />
+    <None Include="wwwroot\Upload\images\icon-gift.png" />
+    <None Include="wwwroot\Upload\images\icon-return.png" />
+    <None Include="wwwroot\Upload\images\icon-ship.png" />
+    <None Include="wwwroot\Upload\images\jcb-payment.jpg" />
+    <None Include="wwwroot\Upload\images\master-card-payment.jpg" />
+    <None Include="wwwroot\Upload\images\ostelin-vitamin-d-calcium-cua-uc-5f4daddea5953-01092020091142.jpg" />
+    <None Include="wwwroot\Upload\images\ostelin-vitamin-d-calcium-cua-uc-60a46ee2cc449-19052021085026.jpg" />
+    <None Include="wwwroot\Upload\images\payoo-payment.jpg" />
+    <None Include="wwwroot\Upload\images\phan-biet-ostelin-calcium-vitamin-d3-that-gia-jpg-1622197426-28052021172346.jpg" />
+    <None Include="wwwroot\Upload\images\shopping-cart-not-product.png" />
+    <None Include="wwwroot\Upload\images\slide01.jpg" />
+    <None Include="wwwroot\Upload\images\slide02.png" />
+    <None Include="wwwroot\Upload\images\slide03.jpg" />
+    <None Include="wwwroot\Upload\images\tinh-dau-hoa-anh-thao-blackmore-1-chiaki-vn-jpg-1498533381-27062017101621.jpg" />
+    <None Include="wwwroot\Upload\images\vien-kem-blackmores-bio-zinc-jpg-1623400213-11062021153013.jpg" />
+    <None Include="wwwroot\Upload\images\vien-kem-tu-nhien-blackmores-bio-zinc-168-vien-cua-uc-58e4a5f66f78b-05042017150822.jpg" />
+    <None Include="wwwroot\Upload\images\vien-kem-tu-nhien-blackmores-bio-zinc-cua-uc-60c31f0c11edd-11062021153004.jpg" />
+    <None Include="wwwroot\Upload\images\vien-nhai-mem-bo-sung-vitamin-c-healthy-care-cua-uc-5fc88adfc2b14-03122020135111.jpg" />
+    <None Include="wwwroot\Upload\images\vien-nhai-mem-bo-sung-vitamin-c-healthy-care-cua-uc-60e81cadb2cef-09072021165349.jpg" />
+    <None Include="wwwroot\Upload\images\vien-sui-bo-sung-vitamin-c-swisse-high-strength-vitamin-c-1000mg-5f0c2333efc55-13072020160243.jpg" />
+    <None Include="wwwroot\Upload\images\vien-sui-vitamin-c-swisse-high-strength-vitamin-c-1000mg-6214872c84330-22022022134812.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-kem-blackmores-bio-zinc-1-jpg-1595236506-20072020161506.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-vitamin-c-blackmores-bio-c-1000mg-5fb87f8055da6-21112020094624.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-vitamin-c-blackmores-bio-c-1000mg-60ebfb1b0fa4a-12072021151939.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-vitamin-c-blackmores-bio-c-1000mg-jpg-1605931054-21112020105734.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-vitamin-c-blackmores-bio-c-150-vien-jpg-1626077994-12072021151954.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-bo-sung-vitamin-c-dhc-jpg-1597460933-15082020100853.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-bo-sung-collagen-cj-innerb-aqua-rich-5b4c508a7d537-16072018150010.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-bo-sung-collagen-cj-innerb-aqua-rich-5b4c508a880b7-16072018150010.png" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-bo-sung-collagen-cj-innerb-aqua-rich-chiaki-vn-jpg-1531730002-16072018153322.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-bo-sung-collagen-cj-innerb-aqua-rich-chiaki-vn2-jpg-1531730014-16072018153334.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-bo-sung-collagen-cj-innerb-aqua-rich-chiaki-vn7-png-1531729982-16072018153302.png" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-ibberb-aqua-rich-a-png-1628499599-09082021155959.png" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-innerb-aqua-rich-doubleup-jpg-1611195885-21012021092445.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-cap-nuoc-innerb-aqua-rich-jpg-1635563765-30102021101605.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-ho-tro-bo-sung-vitamin-c-dhc-nhat-ban-2.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-ho-tro-bo-sung-vitamin-c-dhc-nhat-ban-3.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-ho-tro-bo-sung-vitamin-c-dhc-nhat-ban.jpeg" />
+    <None Include="wwwroot\Upload\images\vien-uong-innerb-aqua-rich-ho-tro-cap-nuoc-va-collagen-617cb9289df87-30102021101656.jpg" />
+    <None Include="wwwroot\Upload\images\vien-uong-lam-dep-da-perles-de-peau-cua-phap-5def49b2c5b74-10122019143058.jpg" />
+    <None Include="wwwroot\Upload\images\visa-payment.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-c-1000mg-kirkland-hop-500-vien-vitamin-c-cua-my-614c1aefad3ad-23092021131303.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-c-blackmore-jpeg-1612234394-02022021095314.jpeg" />
+    <None Include="wwwroot\Upload\images\vitamin-c-dhc-1-jpg-1527557779-29052018083619.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-c-dhc-jpg-1527557593-29052018083313.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-d-calcium-ostelin-cho-ba-bau-130-vien-cua-uc-58ae6431b87e2-23022017112521.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-d3-canxi-ostelin-jpg-1622197370-28052021172250.jpg" />
+    <None Include="wwwroot\Upload\images\vitamin-tong-hop-centrum-silver-adults-50-cua-my-59ba3b1e4106b-14092017151734.png" />
+    <None Include="wwwroot\Upload\images\vitamin-tong-hop-centrum-silver-adults-cho-nguoi-tren-50-tuoi-61e7af1745237-19012022132631.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+
+</Project>
